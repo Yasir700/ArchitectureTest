@@ -1,3 +1,4 @@
+using ArchitectureTest.Component.Cube;
 using ArchitectureTest.Service.Compare.Abstract;
 using ArchitectureTest.Service.Compare.Concrete;
 using UnityEngine;
@@ -19,11 +20,11 @@ namespace ArchitectureTest.Component.CubeSpawner.Abstract
             _cubeTypeIsBig = new CubeTypeIsBig();
         }
 
-        protected void SpawnCube()
+        protected CubeData SpawnCube()
         {
-            Instantiate(CubePrefab);
-
+            var spawnedObject = Instantiate(CubePrefab);
             _cubeSpawnerData.CubeSpawned = true;
+            return spawnedObject.GetComponent<CubeData>();
         }
     }
 }
