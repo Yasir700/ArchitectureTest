@@ -378,6 +378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CubePrefab: {fileID: 1370313312817689756, guid: 7bbacf9e255e53a49a17764ed043cf91, type: 3}
+  CubeDataLoad: {fileID: 11400000, guid: 7aaffe1c1d655f24d9cd1150cad5dfb6, type: 2}
 --- !u!114 &722223378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,6 +392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CubePrefab: {fileID: 6133100107866910185, guid: 7b273b70fbcdba749a82afe313581dba, type: 3}
+  CubeDataLoad: {fileID: 11400000, guid: 7aaffe1c1d655f24d9cd1150cad5dfb6, type: 2}
 --- !u!114 &722223379
 MonoBehaviour:
   m_ObjectHideFlags: 0
